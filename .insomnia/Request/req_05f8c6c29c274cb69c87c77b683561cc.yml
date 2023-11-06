@@ -1,0 +1,32 @@
+_id: req_05f8c6c29c274cb69c87c77b683561cc
+type: Request
+parentId: fld_1d1ebbee2b6d4a33b92a0d25dba9a38f
+modified: 1660024720470
+created: 1656427817537
+url: "{{base_url}}/shippingprices"
+name: Create Shipping price
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"itemType": "NonDocument",
+    	"weightRangeMin": 6,
+    	"weightRangeMax": 10,
+    	"price": 725.25
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7aac015aea54446f9c662b27276afc2a
+authentication: {}
+metaSortKey: -1656427087853.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

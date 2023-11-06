@@ -1,0 +1,36 @@
+_id: req_3df821d38bef44a28f41a89d2e938a0a
+type: Request
+parentId: fld_372ea86bd3e4434f835c01eed7b91e30
+modified: 1660025076345
+created: 1656426468723
+url: "{{base_url}}/users"
+name: Signup
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "saba.ramalingam+test3@gmail.com",
+    	"password": "Test1234",
+    	"firstName": "Saba",
+    	"lastName": "R",
+    	"country": "IN",
+    	"phone": "3242343"
+    	
+    	
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0d688ab4e7734db287939cde09996021
+authentication: {}
+metaSortKey: -1656426468723
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

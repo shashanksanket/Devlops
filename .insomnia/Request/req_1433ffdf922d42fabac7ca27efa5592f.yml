@@ -1,0 +1,36 @@
+_id: req_1433ffdf922d42fabac7ca27efa5592f
+type: Request
+parentId: fld_16b6aaa27663486ba0667ad8022b5165
+modified: 1660028770887
+created: 1660026547353
+url: "{{ _.base_url }}/senderaddresses"
+name: Create Sender Address
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"firstName": "senderFirst",
+    	"lastName": "senderLast",
+    	"addressLine1": "Line1",
+    	"addressLine2": "Line2",
+    	"phoneNumber": "234343"
+
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3f0a5050d77e49b9af799ab6125dd22d
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJpYXQiOjE2NjAwMjY0NTAsImV4cCI6MTY2MDExMjg1MCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNDEiLCJqdGkiOiIyMTVlNmI1NC04NDYzLTRlZjgtYThhYy1iZDVlZmU3YWQ5ZjgifQ.vDi2P98GLteTUdCB5Fmfc3KP0DLtg7SQgIOtktvtp5E
+metaSortKey: -1659727396748
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

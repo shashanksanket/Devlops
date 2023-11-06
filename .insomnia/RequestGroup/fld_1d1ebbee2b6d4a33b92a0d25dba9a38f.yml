@@ -1,0 +1,10 @@
+_id: fld_1d1ebbee2b6d4a33b92a0d25dba9a38f
+type: RequestGroup
+parentId: wrk_438bcfbff92f4c4b9c1d9d47b346c88b
+modified: 1656427702840
+created: 1656427702840
+name: Shipping Prices
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1656427702841

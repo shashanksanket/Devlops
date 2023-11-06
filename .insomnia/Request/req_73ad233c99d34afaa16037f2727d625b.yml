@@ -1,0 +1,25 @@
+_id: req_73ad233c99d34afaa16037f2727d625b
+type: Request
+parentId: fld_1d1ebbee2b6d4a33b92a0d25dba9a38f
+modified: 1656428038075
+created: 1656427706984
+url: "{{base_url}}/shippingprices"
+name: All Shipping prices
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_a13ca57115d74166988fc75218c62ff2
+    name: weightRangeMin
+    value: "1"
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1656427706984
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

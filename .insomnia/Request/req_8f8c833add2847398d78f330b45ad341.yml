@@ -1,0 +1,31 @@
+_id: req_8f8c833add2847398d78f330b45ad341
+type: Request
+parentId: fld_372ea86bd3e4434f835c01eed7b91e30
+modified: 1660025494467
+created: 1656426532389
+url: "{{base_url}}/authentication"
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "saba.ramalingam+test3@gmail.com",
+    	"password": "Test1234",
+    	"strategy": "local"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0d688ab4e7734db287939cde09996021
+authentication: {}
+metaSortKey: -1656426467178
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

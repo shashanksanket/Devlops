@@ -1,0 +1,32 @@
+_id: req_8342ed79f34f4668b165cbf9c67d5ecb
+type: Request
+parentId: fld_16b6aaa27663486ba0667ad8022b5165
+modified: 1660028895357
+created: 1660024763494
+url: "{{ _.base_url }}/senderaddresses"
+name: Get Sender Address
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_62b389067afb42e2a741066a660397f3
+    name: userId
+    value: "41"
+    description: ""
+    disabled: true
+  - id: pair_86b4c623b26d4dad9e22352635750699
+    name: ""
+    value: ""
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJpYXQiOjE2NjAwMjY0NTAsImV4cCI6MTY2MDExMjg1MCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNDEiLCJqdGkiOiIyMTVlNmI1NC04NDYzLTRlZjgtYThhYy1iZDVlZmU3YWQ5ZjgifQ.vDi2P98GLteTUdCB5Fmfc3KP0DLtg7SQgIOtktvtp5E
+metaSortKey: -1660024763494
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
